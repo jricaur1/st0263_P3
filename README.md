@@ -21,7 +21,10 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
   3.1. Colombia
     Una vez se ingresan los datos al s3, se accede a los mismos y se realizan exploraciones generales de los datos, además de nuevas clasificaciones de los datos en colombia. Se clasifican los datos por fallecidos, y por recuperados. Una vez ejecutado este paso se almacenan los datos generados en archivos csv dentro de Amazon S3.
 
-   Toda la exploración ejecutada de estos datos queda almacenada en el siguiente [cuaderno](Colombia/Colombia.ipnb)
+   Toda la exploración ejecutada de estos datos queda almacenada en el siguiente [cuaderno](https://github.com/jricaur1/st0263_P3/blob/master/Colombia/Colombia.ipynb)
 
    Fallecidos:  s3://proyecto-bigdata-top-tel/COVID-19_data/Colombia/data_fallecidos.csv/part-00000-bcc9f339-37fb-4e00-b5a6-465e9f4fd8c1-c000.csv 
     Recuperados: s3://proyecto-bigdata-top-tel/COVID-19_data/Colombia/data_recuperados.csv/part-00000-525f09a0-29bb-41dd-a122-b648c4e3a663-c000.csv
+
+  3.2 En el mundo
+    Los datos del mundo están de la forma en la que se pueden ver la cantidad de infectados, recuperados y muertos hasta la fecha por país. Las exploraciones ejecutadas con estos datos estarán almacenadas en el siguiente [cuaderno](https://github.com/jricaur1/st0263_P3/blob/master/Nivel%20Mundial/Resto%20del%20mundo.ipynb).
