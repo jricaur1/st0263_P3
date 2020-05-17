@@ -28,3 +28,6 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
 
   3.2 En el mundo
     Los datos del mundo están de la forma en la que se pueden ver la cantidad de infectados, recuperados y muertos hasta la fecha por país. Las exploraciones ejecutadas con estos datos estarán almacenadas en el siguiente [cuaderno](https://github.com/jricaur1/st0263_P3/blob/master/Nivel%20Mundial/Resto%20del%20mundo.ipynb).
+
+  3.3 Colombia VS. Mundo
+    La idea sería la siguente: comparar a Colombia con otros países del mundo con el fin de ver las diferencias entre las cifras, adicionalmente podemos ver que tanto porcentaje de infectados, muertos y recuperados son de Colombia.
