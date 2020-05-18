@@ -34,7 +34,7 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
 
  ## 4. Visualización básica de datos
 
-  Para la visualización de los datos se implementó una instancia EC2, con sistema operativo CentOS, y en esta se utilizaron contenedores tanto de elastic search como de kibana. el docker-file se encuentra directamente en este repositorio.
+  Para la visualización de los datos se implementó una instancia EC2, con sistema operativo CentOS, y en esta se utilizaron contenedores tanto de elastic search como de kibana. el [docker-file](https://github.com/jricaur1/st0263_P3/blob/master/kibana/docker-compose.yml) se encuentra directamente en este repositorio.
 
   ![](images/kibana_docker.jpg)
 
