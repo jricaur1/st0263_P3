@@ -76,3 +76,6 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
   
   ![](images/menosRecuperados.jpg)
   
+  # 5. DynamoDB
+
+Hubo ciertos problemas a la hora de comunicar nuestro datalake en S3 con DynamoDB, pues las formas que intentamos para migrar los datos fallaron por las limitaciones que tiene la versión de AWS Educate ya que no nos permitía crear funciones lambda ni crear Data Pipelines, cosas que eran necesarias para lograr este numeral.
