@@ -36,9 +36,11 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
 
   Para la visualización de los datos se implementó una instancia EC2, con sistema operativo CentOS, y en esta se utilizaron contenedores tanto de elastic search como de kibana. el docker-file se encuentra directamente en este repositorio.
 
-  inserte pantallazo aquí
+  ![](images/kibana_docker.jpg)
 
   una vez se crea esta instancia se accede a la aplicación [kibana](http://ec2-3-88-24-197.compute-1.amazonaws.com:5601/) y en ella se importan los datos
+
+  ![](images/kibana_import.jpg)
 
   4.2. Situación Colombia
 
@@ -50,4 +52,10 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
 
   Se presentaron dificultades al manejar un parámetro como la edad puesto que esta es tomada como String por la plataforma, limitando las posiblidades de conteos, rangos, etc.
 
+  ![](images/kibana_dashboard_1.jpg)
 
+  ![](images/kibana_dashboard_2.jpg)
+
+  ![](images/kibana_dashboard_3.jpg)
+
+  ![](images/kibana_dashboard_4.jpg)
