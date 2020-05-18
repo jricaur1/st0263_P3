@@ -42,7 +42,7 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
 
   ![](images/kibana_import.jpg)
 
-  ### 4.2. Situación Colombia
+  ### 4.1. Situación Colombia
 
   En el caso de Colombia se importan los datos e inmediatamente estos presentan informes generales a través del data visualizer. Una vez importados se crea un esquema que permite el uso de estos datos dentro de las opciones Visualize y Dashboard
 
@@ -59,3 +59,20 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
   ![](images/kibana_dashboard_3.jpg)
 
   ![](images/kibana_dashboard_4.jpg)
+  
+  ### 4.2 Situación Mundial
+  
+  En el caso del resto del mundo se importan los datos y se presentan informes generales haciendo uso de MatPlotLib dadas ciertas dificultades para mostrar estos datos en Kibana. A continuación se pueden apreciar diferentes gráficas de interés acerca de la situación actual, a su vez que el [cuaderno](https://github.com/jricaur1/st0263_P3/blob/master/Nivel%20Mundial/Visualizaci%C3%B3n%20datos%20resto%20del%20mundo.ipynb) usado para generar los gráficos.
+  
+  ![](images/masCasos.jpg)
+  
+  ![](images/menosCasos.jpg)
+  
+  ![](images/masMuertes.jpg)
+  
+  ![](images/menosMuertes.jpg)
+  
+  ![](images/masRecuperados.jpg)
+  
+  ![](images/menosRecuperados.jpg)
+  
