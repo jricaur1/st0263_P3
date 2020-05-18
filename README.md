@@ -31,3 +31,23 @@ Descargamos los datos referentes al COVID-19 en https://data.humdata.org/dataset
 
   3.3 Colombia VS. Mundo
     La idea sería la siguente: comparar a Colombia con otros países del mundo con el fin de ver las diferencias entre las cifras, adicionalmente podemos ver que tanto porcentaje de infectados, muertos y recuperados son de Colombia.
+
+  4. Visualización básica de datos
+
+  Para la visualización de los datos se implementó una instancia EC2, con sistema operativo CentOS, y en esta se utilizaron contenedores tanto de elastic search como de kibana. el docker-file se encuentra directamente en este repositorio.
+
+  inserte pantallazo aquí
+
+  una vez se crea esta instancia se accede a la aplicación [kibana](http://ec2-3-88-24-197.compute-1.amazonaws.com:5601/) y en ella se importan los datos
+
+  4.2. Situación Colombia
+
+  En el caso de Colombia se importan los datos e inmediatamente estos presentan informes generales a través del data visualizer. Una vez importados se crea un esquema que permite el uso de estos datos dentro de las opciones Visualize y Dashboard
+
+  Se crean múltiples gráficos para visualizar la información con respecto a Colombia y se muestran los mismos en el Dashboard de ese mismo nombre
+
+  inserte pantallazos de dashboard
+
+  Se presentaron dificultades al manejar un parámetro como la edad puesto que esta es tomada como String por la plataforma, limitando las posiblidades de conteos, rangos, etc.
+
+
